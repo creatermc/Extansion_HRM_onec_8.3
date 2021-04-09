@@ -1,0 +1,178 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1">
+		<Autofill>false</Autofill>
+	</AutoCommandBar>
+	<Events>
+		<Event name="OnCreateAtServer">ПриСозданииНаСервере</Event>
+	</Events>
+	<ChildItems>
+		<CommandBar name="Группа2" id="20">
+			<CommandSource>Form</CommandSource>
+			<ExtendedTooltip name="Группа2РасширеннаяПодсказка" id="21"/>
+			<ChildItems>
+				<Button name="ЗаписатьИЗакрыть" id="4">
+					<Type>CommandBarButton</Type>
+					<DefaultButton>true</DefaultButton>
+					<CommandName>Form.Command.ЗаписатьИЗакрыть</CommandName>
+					<ExtendedTooltip name="ЗаписатьИЗакрытьРасширеннаяПодсказка" id="5"/>
+				</Button>
+				<Button name="Логирование" id="12">
+					<Type>CommandBarButton</Type>
+					<Width>11</Width>
+					<CommandName>Form.Command.Логирование</CommandName>
+					<ExtendedTooltip name="ЛогированиеРасширеннаяПодсказка" id="13"/>
+				</Button>
+				<Button name="НастройкаОтбораПодразделенийОрганиазций" id="39">
+					<Type>CommandBarButton</Type>
+					<CommandName>Form.Command.НастройкаОтбораПодразделенийОрганиазций</CommandName>
+					<ExtendedTooltip name="НастройкаОтбораПодразделенийОрганиазцийРасширеннаяПодсказка" id="40"/>
+				</Button>
+			</ChildItems>
+		</CommandBar>
+		<UsualGroup name="Группа1" id="28">
+			<Group>Vertical</Group>
+			<Representation>StrongSeparation</Representation>
+			<ShowTitle>false</ShowTitle>
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="29"/>
+			<ChildItems>
+				<UsualGroup name="Группа4" id="32">
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа4РасширеннаяПодсказка" id="33"/>
+					<ChildItems>
+						<InputField name="АдресУчетнойСистемы" id="1">
+							<DataPath>АдресУчетнойСистемы</DataPath>
+							<ToolTip>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>URL учетной системы</v8:content>
+								</v8:item>
+							</ToolTip>
+							<ContextMenu name="АдресУчетнойСистемыКонтекстноеМеню" id="2"/>
+							<ExtendedTooltip name="АдресУчетнойСистемыРасширеннаяПодсказка" id="3"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="Группа3" id="30">
+					<Group>AlwaysHorizontal</Group>
+					<Representation>None</Representation>
+					<ShowTitle>false</ShowTitle>
+					<ExtendedTooltip name="Группа3РасширеннаяПодсказка" id="31"/>
+					<ChildItems>
+						<InputField name="Логин" id="22">
+							<DataPath>Логин</DataPath>
+							<Width>19</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<ContextMenu name="ЛогинКонтекстноеМеню" id="23"/>
+							<ExtendedTooltip name="ЛогинРасширеннаяПодсказка" id="24"/>
+						</InputField>
+						<InputField name="Пароль" id="25">
+							<DataPath>Пароль</DataPath>
+							<Width>13</Width>
+							<HorizontalStretch>false</HorizontalStretch>
+							<PasswordMode>true</PasswordMode>
+							<ContextMenu name="ПарольКонтекстноеМеню" id="26"/>
+							<ExtendedTooltip name="ПарольРасширеннаяПодсказка" id="27"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="АдресУчетнойСистемы" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Адрес</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>200</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Логин" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логин</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Пароль" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Пароль</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:string</v8:Type>
+				<v8:StringQualifiers>
+					<v8:Length>100</v8:Length>
+					<v8:AllowedLength>Variable</v8:AllowedLength>
+				</v8:StringQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="ЗаписатьИЗакрыть" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Записать и закрыть</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>ЗаписатьИЗакрыть</Action>
+		</Command>
+		<Command name="Логирование" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логирование</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Логирование</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Логирование</Action>
+		</Command>
+		<Command name="НастройкаОтбораПодразделенийОрганиазций" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка отбора</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Настройка отбора в форме индивидуальные графики </v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>НастройкаОтбораПодразделенийОрганиазций</Action>
+		</Command>
+	</Commands>
+</Form>

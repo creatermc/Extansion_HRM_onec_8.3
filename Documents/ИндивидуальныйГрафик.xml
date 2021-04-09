@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<MetaDataObject xmlns="http://v8.1c.ru/8.3/MDClasses" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:cmi="http://v8.1c.ru/8.2/managed-application/cmi" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xen="http://v8.1c.ru/8.3/xcf/enums" xmlns:xpr="http://v8.1c.ru/8.3/xcf/predef" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.9">
+	<Document uuid="b8049f0c-559c-11eb-778f-b42e9905bfa2">
+		<InternalInfo>
+			<xr:GeneratedType name="DocumentObject.ИндивидуальныйГрафик" category="Object">
+				<xr:TypeId>b8049efc-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+				<xr:ValueId>b8049efd-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentRef.ИндивидуальныйГрафик" category="Ref">
+				<xr:TypeId>b8049efe-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+				<xr:ValueId>b8049eff-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentSelection.ИндивидуальныйГрафик" category="Selection">
+				<xr:TypeId>b8049f06-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+				<xr:ValueId>b8049f07-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentList.ИндивидуальныйГрафик" category="List">
+				<xr:TypeId>b8049f08-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+				<xr:ValueId>b8049f09-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+			</xr:GeneratedType>
+			<xr:GeneratedType name="DocumentManager.ИндивидуальныйГрафик" category="Manager">
+				<xr:TypeId>b8049f0a-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+				<xr:ValueId>b8049f0b-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+			</xr:GeneratedType>
+		</InternalInfo>
+		<Properties>
+			<Name>ИндивидуальныйГрафик</Name>
+			<Comment/>
+			<ObjectBelonging>Adopted</ObjectBelonging>
+			<ExtendedConfigurationObject>449f8cfc-8d46-4518-bce9-b2d331604120</ExtendedConfigurationObject>
+			<RegisterRecords/>
+		</Properties>
+		<ChildObjects>
+			<Attribute uuid="d8087fb6-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПериодРегистрации</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>07f464b4-490f-4f3f-89e1-197d11b3879b</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="da2c9bb0-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo/>
+				<Properties>
+					<Name>Организация</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>c89d4d4d-7ac7-4dd9-bda6-c5f1afb0f0ac</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Организации</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="dc2b53b6-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo/>
+				<Properties>
+					<Name>Подразделение</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9305975c-2ba4-43b1-805d-461b7d150855</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.ПодразделенияОрганизаций</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="de6f8142-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДатаНачалаПериода</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>a5e9a299-9ce9-4384-8e5f-7b31fc8e930f</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e0bef02c-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo/>
+				<Properties>
+					<Name>ДатаОкончанияПериода</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>e1efa2c7-fddb-48a8-80c6-3b7a77fb535e</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:dateTime</v8:Type>
+						<v8:DateQualifiers>
+							<v8:DateFractions>Date</v8:DateFractions>
+						</v8:DateQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e2c53eda-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo/>
+				<Properties>
+					<Name>ПериодВводаДанныхОВремени</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>1de62181-3e7b-4d01-a456-fe245ccc4842</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:EnumRef.ПериодыВводаДанныхОВремени</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e4d39410-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo/>
+				<Properties>
+					<Name>ИсправленныйДокумент</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>9fbb0809-3e1a-4f4b-94e2-19b1be0f1927</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:DocumentRef.ИндивидуальныйГрафик</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e6a58d16-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo/>
+				<Properties>
+					<Name>КраткийСоставДокумента</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>235c4afe-e2b3-4b0c-9e60-d26fc71101f0</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>100</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="e8abfce4-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo/>
+				<Properties>
+					<Name>Ответственный</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>58889120-2422-45bb-a9bd-6b30460acd54</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>cfg:CatalogRef.Пользователи</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="eae3a944-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo/>
+				<Properties>
+					<Name>Комментарий</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>fb09f046-b5a0-4fcf-aceb-79dabea5af10</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:string</v8:Type>
+						<v8:StringQualifiers>
+							<v8:Length>0</v8:Length>
+							<v8:AllowedLength>Variable</v8:AllowedLength>
+						</v8:StringQualifiers>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Attribute uuid="ecc5d2c8-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo/>
+				<Properties>
+					<Name>ГрафикСменности</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>d9f25600-9214-470a-8008-8218d68e6a12</ExtendedConfigurationObject>
+					<Type>
+						<v8:Type>xs:boolean</v8:Type>
+					</Type>
+				</Properties>
+			</Attribute>
+			<Form>ФормаДокумента</Form>
+			<Form>ФормаСписка</Form>
+			<TabularSection uuid="c9745276-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИндивидуальныйГрафик.ДополнительныеРеквизиты" category="TabularSection">
+						<xr:TypeId>c9745272-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+						<xr:ValueId>c9745273-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИндивидуальныйГрафик.ДополнительныеРеквизиты" category="TabularSectionRow">
+						<xr:TypeId>c9745274-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+						<xr:ValueId>c9745275-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДополнительныеРеквизиты</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>88a3335a-f8d6-485a-b197-efee59bfdcd2</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="cbccfffa-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИндивидуальныйГрафик.Смены" category="TabularSection">
+						<xr:TypeId>cbccfff6-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+						<xr:ValueId>cbccfff7-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИндивидуальныйГрафик.Смены" category="TabularSectionRow">
+						<xr:TypeId>cbccfff8-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+						<xr:ValueId>cbccfff9-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>Смены</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>3dd3a562-af59-4820-908f-931c5d68837c</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="ce0423a2-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИндивидуальныйГрафик.ФизическиеЛица" category="TabularSection">
+						<xr:TypeId>ce04239e-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+						<xr:ValueId>ce04239f-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИндивидуальныйГрафик.ФизическиеЛица" category="TabularSectionRow">
+						<xr:TypeId>ce0423a0-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+						<xr:ValueId>ce0423a1-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ФизическиеЛица</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>55658fa2-a156-4400-837b-b554502d8d4c</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="d0181e78-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИндивидуальныйГрафик.СотрудникиСИсправлениями" category="TabularSection">
+						<xr:TypeId>d0181e74-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+						<xr:ValueId>d0181e75-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИндивидуальныйГрафик.СотрудникиСИсправлениями" category="TabularSectionRow">
+						<xr:TypeId>d0181e76-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+						<xr:ValueId>d0181e77-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>СотрудникиСИсправлениями</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>ab83edaa-7c67-4a21-a20b-8b91758885ff</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+			<TabularSection uuid="d201b01e-559c-11eb-778f-b42e9905bfa2">
+				<InternalInfo>
+					<xr:GeneratedType name="DocumentTabularSection.ИндивидуальныйГрафик.ДанныеОВремени" category="TabularSection">
+						<xr:TypeId>d201b01a-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+						<xr:ValueId>d201b01b-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+					</xr:GeneratedType>
+					<xr:GeneratedType name="DocumentTabularSectionRow.ИндивидуальныйГрафик.ДанныеОВремени" category="TabularSectionRow">
+						<xr:TypeId>d201b01c-559c-11eb-778f-b42e9905bfa2</xr:TypeId>
+						<xr:ValueId>d201b01d-559c-11eb-778f-b42e9905bfa2</xr:ValueId>
+					</xr:GeneratedType>
+				</InternalInfo>
+				<Properties>
+					<Name>ДанныеОВремени</Name>
+					<Comment/>
+					<ObjectBelonging>Adopted</ObjectBelonging>
+					<ExtendedConfigurationObject>8211e3b7-e1e5-4870-a4b4-4756cd424498</ExtendedConfigurationObject>
+				</Properties>
+				<ChildObjects/>
+			</TabularSection>
+		</ChildObjects>
+	</Document>
+</MetaDataObject>
